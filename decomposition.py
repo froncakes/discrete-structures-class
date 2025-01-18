@@ -13,7 +13,6 @@ for i in range (2, int(math.ceil(math.sqrt(number)))):
     while (number % i == 0):
         print (i)
         number = number/i
-    i = i+2
 
 # if the number is anything other than 1 it will be printed, because it isnt divided by anything between 2 or the square root of the input number
 if number > 1:
